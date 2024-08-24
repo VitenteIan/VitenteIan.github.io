@@ -1,67 +1,69 @@
 body {
-    margin: 0;
-    line-height: normal;
-  }
-  
-  :root {
-    /* fonts */
-    --font-jetbrains-mono: "JetBrains Mono";
-    --font-inter: Inter;
-  
-    /* font sizes */
-    --font-size-xl: 20px;
-    --font-size-base: 16px;
-    --font-size-5xl: 24px;
-    --font-size-lgi: 19px;
-    --font-size-29xl: 48px;
-    --font-size-10xl: 29px;
-    --font-size-19xl: 38px;
-    --font-size-45xl: 64px;
-    --font-size-32xl: 51px;
-    --font-size-xs: 12px;
-  
-    /* Colors */
-    --color-lavenderblush: #fff2f2;
-    --color-black: #000;
-    --color-mediumturquoise: #79dfda;
-    --color-lightseagreen: #45ada8;
-    --color-white: #fff;
-    --color-dimgray: rgba(98, 95, 95, 0.35);
-    --color-darkgray: #9d9b9b;
-    --color-orchid: #ea84d7;
-    --color-cornflowerblue: #7199e2;
-  
-    /* Gaps */
-    --gap-mid: 17px;
-    --gap-xl: 20px;
-    --gap-2xs: 11px;
-    --gap-2xl: 21px;
-    --gap-13xl: 32px;
-  
-    /* Paddings */
-    --padding-17xl: 36px;
-    --padding-15xl: 34px;
-    --padding-7xl: 26px;
-    --padding-39xl: 58px;
-    --padding-21xl: 40px;
-    --padding-14xl: 33px;
-    --padding-8xl: 27px;
-    --padding-mini: 15px;
-    --padding-base: 16px;
-    --padding-lg: 18px;
-    --padding-4xl: 23px;
-    --padding-19xl: 38px;
-    --padding-163xl: 182px;
-    --padding-75xl: 94px;
-    --padding-5xs: 8px;
-    --padding-121xl: 140px;
-    --padding-xl: 20px;
-    --padding-12xs: 1px;
-    --padding-3xs: 10px;
-  
-    /* Border radiuses */
-    --br-69xl: 88px;
-    --br-xl: 20px;
-    --br-8xl: 27px;
-  }
-  
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-jetbrains-mono: "JetBrains Mono";
+  --font-inter: Inter;
+
+  /* font sizes */
+  --font-size-xl: 1.25rem;
+  --font-size-base: 1rem;
+  --font-size-5xl: 1.5rem;
+  --font-size-lgi: 1.188rem;
+  --font-size-29xl: 3rem;
+  --font-size-10xl: 1.813rem;
+  --font-size-19xl: 2.375rem;
+  --font-size-45xl: 4rem;
+  --font-size-32xl: 3.188rem;
+  --font-size-xs: 0.75rem;
+
+  /* Colors */
+  --color-black: #000;
+  --color-mediumturquoise: #79dfda;
+  --color-lightseagreen: #45ada8;
+  --color-white: #fff;
+  --color-dimgray: rgba(98, 95, 95, 0.35);
+  --color-darkgray: #9d9b9b;
+
+  /* Gaps */
+  --gap-mid: 1.062rem;
+  --gap-xl: 1.25rem;
+  --gap-3xs: 0.625rem;
+  --gap-2xs: 0.687rem;
+  --gap-2xl: 1.312rem;
+  --gap-base: 1rem;
+  --gap-13xl: 2rem;
+  --gap-4xl: 1.437rem;
+
+  /* Paddings */
+  --padding-115xl: 8.375rem;
+  --padding-xl: 1.25rem;
+  --padding-104xl: 7.687rem;
+  --padding-25xl: 2.75rem;
+  --padding-21xl: 2.5rem;
+  --padding-14xl: 2.062rem;
+  --padding-mini: 0.937rem;
+  --padding-smi: 0.812rem;
+  --padding-base: 1rem;
+  --padding-lg: 1.125rem;
+  --padding-4xl: 1.437rem;
+  --padding-19xl: 2.375rem;
+  --padding-75xl: 5.875rem;
+  --padding-42xl: 3.812rem;
+  --padding-121xl: 8.75rem;
+  --padding-72xl: 5.687rem;
+  --padding-12xs: 0.062rem;
+  --padding-56xl: 4.687rem;
+  --padding-13xl: 2rem;
+  --padding-lgi: 1.187rem;
+  --padding-mid: 1.062rem;
+  --padding-7xl: 1.625rem;
+  --padding-3xs: 0.625rem;
+
+  /* Border radiuses */
+  --br-xl: 20px;
+  --br-8xl: 27px;
+}

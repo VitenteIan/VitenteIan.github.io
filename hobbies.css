@@ -1,0 +1,424 @@
+.hobbies1 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+}
+.content {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 3.875rem;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.frame-child,
+.frame-item {
+  position: absolute;
+  border-radius: 50%;
+}
+.frame-child {
+  top: 0;
+  left: 0;
+  background-color: var(--color-darkgray);
+  width: 100%;
+  height: 100%;
+}
+.frame-item {
+  height: calc(100% - 26px);
+  top: 0.75rem;
+  bottom: 0.875rem;
+  left: 0.813rem;
+  max-height: 100%;
+  width: 23.938rem;
+  object-fit: cover;
+  z-index: 1;
+}
+.ellipse-parent {
+  height: 23.375rem;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+}
+.content-parent,
+.frame-wrapper,
+.structure {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frame-wrapper {
+  align-self: stretch;
+  flex-direction: row;
+}
+.content-parent,
+.structure {
+  flex-direction: column;
+}
+.content-parent {
+  width: 25.75rem;
+  gap: var(--gap-2xl);
+}
+.structure {
+  width: 30.625rem;
+  padding: var(--padding-121xl) 0 0;
+  box-sizing: border-box;
+}
+.frame-inner {
+  align-self: stretch;
+  width: 0.063rem;
+  position: relative;
+  border-right: 1px solid var(--color-dimgray);
+  box-sizing: border-box;
+}
+.description {
+  margin: 0;
+  width: 0;
+  height: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+}
+.description-wrapper {
+  width: 0;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 5.5rem 0 0;
+  box-sizing: border-box;
+}
+.description-wrapper,
+.hobbies-inner,
+.line-parent {
+  display: flex;
+  align-items: flex-start;
+}
+.line-parent {
+  align-self: stretch;
+  flex: 1;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.hobbies-inner {
+  height: 47.938rem;
+  width: 1.625rem;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-75xl) 0 0;
+  box-sizing: border-box;
+  font-size: var(--font-size-29xl);
+}
+.rectangle-div {
+  height: 3.938rem;
+  width: 8.875rem;
+  position: relative;
+  border-radius: var(--br-8xl);
+  background-color: var(--color-mediumturquoise);
+  display: none;
+}
+.home {
+  text-decoration: none;
+  position: relative;
+  font-size: var(--font-size-5xl);
+  font-family: var(--font-jetbrains-mono);
+  color: var(--color-white);
+  text-align: left;
+  display: inline-block;
+  min-width: 3.625rem;
+  z-index: 1;
+}
+.frame-child1,
+.rectangle-parent {
+  width: 8.875rem;
+  border-radius: var(--br-8xl);
+  background-color: var(--color-mediumturquoise);
+}
+.rectangle-parent {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-base) var(--padding-19xl) var(--padding-mini);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.rectangle-container:hover,
+.rectangle-parent:hover {
+  background-color: var(--color-lightseagreen);
+}
+.frame-child1 {
+  align-self: stretch;
+  position: relative;
+  display: none;
+}
+.social {
+  margin: 0;
+}
+.social-links {
+  text-decoration: none;
+  flex: 1;
+  position: relative;
+  color: inherit;
+  z-index: 1;
+}
+.rectangle-group {
+  width: 8.875rem;
+  border-radius: var(--br-8xl);
+  background-color: var(--color-mediumturquoise);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-lg) 0 var(--padding-4xl);
+  box-sizing: border-box;
+  cursor: pointer;
+}
+.about-me {
+  text-decoration: none;
+  position: relative;
+  font-size: var(--font-size-5xl);
+  font-family: var(--font-jetbrains-mono);
+  color: var(--color-white);
+  text-align: left;
+  display: inline-block;
+  min-width: 7.25rem;
+  z-index: 1;
+}
+.frame-group,
+.rectangle-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  white-space: nowrap;
+}
+.rectangle-container {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-mini) var(--padding-smi) var(--padding-base);
+  background-color: var(--color-mediumturquoise);
+  border-radius: var(--br-8xl);
+  justify-content: flex-start;
+}
+.frame-group {
+  margin: 0;
+  align-self: stretch;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-white);
+  font-family: var(--font-jetbrains-mono);
+}
+.icon-row-one {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-xl);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.basketball {
+  position: relative;
+  display: inline-block;
+  min-width: 7.5rem;
+}
+.hobby-row-one,
+.label-row-one {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.label-row-one {
+  flex-direction: row;
+  padding: 0 var(--padding-14xl) 0 1.687rem;
+}
+.hobby-row-one {
+  height: 9.563rem;
+  width: 11.25rem;
+  flex-direction: column;
+  gap: var(--gap-2xs);
+}
+.computer-games {
+  position: relative;
+}
+.label-row-two {
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 0 0 0 0.75rem;
+}
+.hobby-row-two,
+.hobby-rows,
+.label-row-two {
+  display: flex;
+  align-items: flex-start;
+}
+.hobby-row-two {
+  height: 9.25rem;
+  width: 11.25rem;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 0.375rem;
+}
+.hobby-rows {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.eating {
+  position: relative;
+  display: inline-block;
+  min-width: 4.5rem;
+}
+.eating-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 2.687rem;
+}
+.sleeping {
+  position: relative;
+  display: inline-block;
+  min-width: 6rem;
+}
+.sleeping-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 2.25rem;
+}
+.rectangle-parent1 {
+  height: 9.5rem;
+  width: 11.25rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.hobby-grid,
+.hobby-grid-wrapper {
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.hobby-grid {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 5.125rem;
+}
+.hobby-grid-wrapper {
+  width: 33.438rem;
+  flex-direction: row;
+  padding: 0 var(--padding-21xl);
+  box-sizing: border-box;
+}
+.frame-parent,
+.hobbies,
+.hobby-grid-wrapper {
+  display: flex;
+  align-items: flex-start;
+}
+.frame-parent {
+  width: 36.375rem;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 10.437rem;
+  max-width: 100%;
+  font-size: var(--font-size-xl);
+}
+.hobbies {
+  width: 100%;
+  position: relative;
+  background: linear-gradient(180deg, #1dd9b9, #f294c5);
+  overflow: hidden;
+  flex-direction: row;
+  justify-content: center;
+  padding: var(--padding-115xl) var(--padding-xl) var(--padding-104xl)
+    var(--padding-25xl);
+  box-sizing: border-box;
+  gap: var(--gap-mid);
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: var(--font-size-45xl);
+  color: var(--color-black);
+  font-family: var(--font-jetbrains-mono);
+}
+@media screen and (max-width: 1200px) {
+  .hobbies {
+    flex-wrap: wrap;
+    padding-left: 1.375rem;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .hobbies1 {
+    font-size: var(--font-size-32xl);
+  }
+  .description {
+    font-size: var(--font-size-19xl);
+  }
+  .hobbies-inner {
+    padding-top: var(--padding-42xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .structure {
+    padding-top: var(--padding-72xl);
+    box-sizing: border-box;
+  }
+  .frame-group,
+  .hobby-rows {
+    flex-wrap: wrap;
+  }
+  .frame-parent {
+    gap: 5.188rem;
+  }
+}
+@media screen and (max-width: 450px) {
+  .hobbies1 {
+    font-size: var(--font-size-19xl);
+  }
+  .content {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .description {
+    font-size: var(--font-size-10xl);
+  }
+  .hobbies-inner {
+    padding-top: var(--padding-21xl);
+    box-sizing: border-box;
+  }
+  .home,
+  .social-links {
+    font-size: var(--font-size-lgi);
+  }
+  .basketball,
+  .computer-games,
+  .eating,
+  .sleeping {
+    font-size: var(--font-size-base);
+  }
+  .hobby-grid {
+    gap: 2.563rem;
+  }
+  .frame-parent {
+    gap: 2.625rem;
+  }
+}
